@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Professional Photographer</title>
+    <meta charset="utf-8">
+    <!-- My CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Ionicons CSS -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="nav-link" href="#home"><img src="img/logo.png" alt ="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#apropos">A PROPOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prestation">PRESATATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tarif">TARIFS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cgv.html">CGV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HOME -->
+    <div class="container-fluid bg-hero" id="home">
+    </div>
+    <!-- A propos -->
+    <div class="bg-custom space" id="apropos"></div>
+    <div class="container-fluid text-center bg-custom">
+      <h3>A propos de moi</h3>
+      <p class="margin subtitle">Quelques informations</p>
+        <div class="about">
+          <div class="col-md-6" id="texte-about">
+            <p>J'ai toujours été passionnée par la photographie, et après un peu plus d'un an dans une 
+              école de cinéma et d'audio-visuel, l'envie de rentrer dans le monde du travail s'installe.</p>
+            <p>Je décide donc d'entamer une formation de photographe et de me lancer dans ce superbe métier.</p>
+            <p>Curieuse, passionnée et très sociable, j'ai hâte de travailler avec vous !</p>
+          </div>
+          <div class="col-md-6">
+           <img class="img-fluid" id="photographer-portrait" src="img/img-photographe.JPG" alt ="Emma la photographe">
+          </div>
+      </div>
+    </div>
+    <!-- Prestations -->
+    <div class="bg-1 space" id="prestation"></div>
+    <div class="container-fluid text-center bg-1">
+      <h3>Prestations</h3>
+      <p class="margin subtitle">Voici le type d'événements que je photographie</p>
+        <div class="fr">
+          <div class="col-md-3">
+            <h4 class="margin">Mariage</h4>
+            <img class="margin img-presta" src="img/img-mariage.JPG" alt="Photo de mariage">
+          </div>
+          <div class="col-md-3">
+            <h4 class="margin">Grossesse</h4>
+            <img class="margin img-presta" src="img/img-grossesse.jpg" alt="Photo de grossesse">
+          </div>
+          <div class="col-md-3">
+            <h4 class="margin">Naissance</h4>
+            <img class="margin img-presta" src="img/img-naissance.JPG" alt="Photo de naissance">
+          </div>
+          <div class="col-md-3">
+            <h4 class="margin">Équestre</h4>
+            <img class="margin img-presta" src="img/img-equestre.JPG" alt="Photo equestre">
+        </div>
+      </div>
+    </div>
+    <!-- Tarifs -->
+    <div class="bg-custom space" id="tarif"></div>
+    <div class="container-fluid text-center bg-custom">
+      <h3>Tarifs</h3>
+      <p class="margin subtitle">Mes tarifs</p>
+        <div style="overflow-x: auto;">
+            <table class="table-fill">
+              <thead>
+                <tr>
+                <th colspan="3">Séance photo mariage</th>
+                <th colspan="3">Séance photo grossesse extérieur*</th>
+                <th colspan="3">Séance photo grossesse studio*</th>
+                <th colspan="3">Séance photo naissance studio*</th>
+                <th colspan="3">Séance photo grossesse équestre</th>
+                </tr>
+                </thead>
+              <thead>
+              <tr>
+              <!-- Mariage -->
+              <th>Express 200€</th>
+              <th>Classic 400€</th>
+              <th>Premium 600€</th>
+              <!-- Grossesse extérieur -->
+              <th>Express 70€</th>
+              <th>Classic 100€</th>
+              <th>Premium 140€</th>
+              <!-- Grossesse studio -->
+              <th>Express 90€</th>
+              <th>Classic 120€</th>
+              <th>Premium 160€</th>
+              <!-- Naissance studio -->
+              <th>Express 90€</th>
+              <th>Classic 120€</th>
+              <th>Premium 160€</th>
+              <!-- Equestre -->
+              <th>Express 50€</th>
+              <th>Classic 80€</th>
+              <th>Premium 110€</th>
+              </tr>
+              </thead>
+              <tbody class="table-hover">
+              <tr>
+              <td>Cérémonie</td>
+              <td>Préparatif</td>
+              <td>Présence <br>du début à la fin</td>
+              <td>Séance d'environ 20min</td>
+              <td>Séance d'environ 1h</td>
+              <td>Séance d'environ 2h</td>
+              <td>Séance d'environ 30min</td>
+              <td>Séance d'environ 1h30</td>
+              <td>Séance d'environ 2h30</td>
+              <td>Séance d'environ 45min</td>
+              <td>Séance d'environ 1h30</td>
+              <td>Séance d'environ 3h</td>
+              <td>Séance d'environ 20min</td>
+              <td>Séance d'environ 45min</td>
+              <td>Séance d'environ 1h45</td>
+              </tr>
+              <tr>
+              <td>Photos de groupes</td>
+              <td>Cérémonie</td>
+              <td>Séance couple avant <br>le mariage offerte</td>
+              <td>5 photos numériques</td>
+              <td>15 photos numériques</td>
+              <td>25 photos numériques</td>
+              <td>5 photos numériques</td>
+              <td>15 photos numériques</td>
+              <td>25 photos numériques</td>
+              <td>5 photos numériques</td>
+              <td>10 photos numériques</td>
+              <td>20 photos numériques</td>
+              <td>4 photos numériques</td>
+              <td>8 photos numériques</td>
+              <td>20 photos numériques</td>
+              </tr>
+              <tr>
+              <td></td>
+              <td>Photos de groupes</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              </tr>
+              <tr>
+              <td></td>
+              <td>Vin d'honneur</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              </tr>
+              </tbody>
+              </table>
+            </div>
+              <p class="text-left" style="font-size: 0.7vw;font-style: italic;">* des accessoires sont mis a disposition (robes, couronnes de fleurs, ballons, ...)</p>
+              <p class="mt-2" style="font-size: 1vw">Pour tout autre type de séance photo (couple, photo, famille, animaux ou autre) merci de demander un devis.</p>
+          </div>
+          </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="bg-1 space" id="contact"></div>
+    <div class="container-fluid text-center bg-1">  
+      <h3>Envie d'en savoir plus ?</h3>
+      <p class="margin subtitle">Envoyez moi un message</p>
+        <div class="fr">
+          <div class="col-md-4">
+            <h4 class="ct">Par téléphone</h4>
+            <a class="ct-a" href="tel:0635296723"><img class="ct-img" src="img/smartphone.png">06.35.29.67.23</a>
+          </div>
+          <div class="col-md-4">
+            <h4 class="ct">Par email</h4>
+            <a class="ct-a" href="mailto:emmadejean@laposte.net"><img class="ct-img" src="img/email.png">emmadejean@laposte.net</a>
+          </div>
+          <div class="col-md-4">
+            <h4 class="ct">Par Instagram</h4>
+            <a class="ct-a"href="https://www.instagram.com/emmadejean.photography"><img class="ct-img" src="img/instagram.png">emmadejean.photography</a>
+          </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <hr class="bar">
+      <div class="container-fluid text-center bg-1">
+        <p style="font-size: 0.6vw;">&copy; 2022 Dejean photography</p>
+      </div>
+    </footer>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Ionicons Script -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
