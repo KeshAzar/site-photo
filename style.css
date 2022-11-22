@@ -64,6 +64,8 @@ p {
 
 #texte-about {
   min-width: 500px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 #photographer-portrait {
