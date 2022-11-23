@@ -11,7 +11,7 @@ p {
 }
 
 .container-fluid h3 {
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
 .bg-1 {
@@ -21,7 +21,7 @@ p {
 
 .subtitle {
   font-style: italic;
-  font-size: 1.5vh;
+  font-size: 1.8vh;
 }
 
 .margin {
@@ -67,7 +67,7 @@ p {
 }
 
 #texte-about > p {
-  font-size: 1.8vh;
+  font-size: 2.2vh;
   padding-right: 4vw;
 }
 
@@ -136,20 +136,20 @@ footer a:hover {
 
 .bar {
   border: 0;
-  height: 0.3vh;
+  height: 0.4vh;
   background: #faebe9;
   margin: 0;
 }
 
 .ct {
   margin-bottom: 1vw;
-  font-size: 2vh;
+  font-size: 2.4vh;
 }
 
 .ct-a {
   text-decoration: none;
   color: white;
-  font-size: 1.2vh;
+  font-size: 1.5vh;
 }
 
 .ct-a:visited {
@@ -191,7 +191,7 @@ th {
   background: #1b1e24;
   border-bottom: 4px solid #9ea7af;
   border-right: 1px solid #343a45;
-  font-size: 1.6vh;
+  font-size: 2vh;
   font-weight: 100;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -216,7 +216,7 @@ td {
   text-align: center;
   vertical-align: middle;
   font-weight: 300;
-  font-size: 1.4vh;
+  font-size: 1.7vh;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   border-right: 1px solid #c1c3d1;
   padding-bottom: 1vh;
@@ -239,20 +239,20 @@ td:last-child {
 }
 
 .cgv > h1 {
-  font-size: 2.7vh;
+  font-size: 3vh;
 }
 
 .cgv > h2 {
-  font-size: 2.4vh;
+  font-size: 2.7vh;
 }
 
 .cgv > h3 {
-  font-size: 2.2vh;
+  font-size: 2.5vh;
 }
 
 .cgv > p,
 .cgv > ul > li > p {
-  font-size: 1.8vh;
+  font-size: 2vh;
 }
 
 .cgv > ul > li > p {
