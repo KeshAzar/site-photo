@@ -91,11 +91,11 @@ footer .icon {
   color: #727271;
 }
 
-footer a {
+footer a, a {
   color: #ffffff;
 }
 
-footer a:hover {
+footer a:hover, a {
   color: #727271;
   text-decoration: none;
 }
