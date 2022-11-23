@@ -85,21 +85,6 @@ p {
   color: #ffffff;
 }
 
-/* FOOTER */
-
-footer .icon {
-  color: #727271;
-}
-
-footer a, a {
-  color: #ffffff;
-}
-
-footer a:hover, a {
-  color: #727271;
-  text-decoration: none;
-}
-
 .about {
   display: flex;
   flex-direction: row;
@@ -146,15 +131,19 @@ footer a:hover, a {
   font-size: 2.4vh;
 }
 
-.ct-a {
+.ct-a, a{
   text-decoration: none;
   color: white;
+}
+
+.ct-a {
   font-size: 1.5vh;
 }
 
-.ct-a:visited {
+.ct-a:visited, a {
   text-decoration: none;
   color: white;
+  font-size: 1.5vh;
 }
 
 .ct-a:hover {
