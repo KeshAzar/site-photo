@@ -11,7 +11,7 @@ p {
 }
 
 .container-fluid h3 {
-  font-size: 4vh;
+  font-size: 4.5vh;
 }
 
 .bg-1 {
@@ -21,7 +21,7 @@ p {
 
 .subtitle {
   font-style: italic;
-  font-size: 1.8vh;
+  font-size: 2vh;
 }
 
 .margin {
@@ -131,12 +131,9 @@ p {
   font-size: 2.4vh;
 }
 
-.ct-a, a{
+.ct-a{
   text-decoration: none;
   color: white;
-}
-
-.ct-a {
   font-size: 1.5vh;
 }
 
