@@ -11,7 +11,7 @@ p {
 }
 
 .container-fluid h3 {
-  font-size: 1.5vw;
+  font-size: 3vh;
 }
 
 .bg-1 {
@@ -21,7 +21,7 @@ p {
 
 .subtitle {
   font-style: italic;
-  font-size: 0.8vw;
+  font-size: 1.5vh;
 }
 
 .margin {
@@ -52,7 +52,7 @@ p {
 /* HERO */
 
 .bg-hero {
-  background-image: url("img/img-appareil.avif");
+  background-image: url("https://images.unsplash.com/photo-1513031300226-c8fb12de9ade?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,6 +112,12 @@ footer a:hover {
   flex-direction: row;
 }
 
+.fc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .fr-tarif {
   display: flex;
   flex-direction: row;
@@ -137,13 +143,13 @@ footer a:hover {
 
 .ct {
   margin-bottom: 1vw;
-  font-size: 1.2vw;
+  font-size: 2vh;
 }
 
 .ct-a {
   text-decoration: none;
   color: white;
-  font-size: 0.8vw;
+  font-size: 1.2vh;
 }
 
 .ct-a:visited {
@@ -162,7 +168,7 @@ footer a:hover {
 }
 
 .ct-img {
-  max-height: 2vw;
+  max-width: 2vh;
   margin-right: 1vw;
   filter: invert(100%);
 }
@@ -234,15 +240,15 @@ td:last-child {
 }
 
 .cgv > h1 {
-  font-size: 1.6vw;
+  font-size: 2.7vh;
 }
 
 .cgv > h2 {
-  font-size: 1.3vw;
+  font-size: 2.4vh;
 }
 
 .cgv > h3 {
-  font-size: 1vw;
+  font-size: 2.2vh;
 }
 
 .cgv > p,
@@ -274,4 +280,36 @@ td:last-child {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
