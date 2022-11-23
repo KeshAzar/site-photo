@@ -296,3 +296,15 @@ td:last-child {
     max-width: 100%;
   }
 }
+
+.galerie {
+  color:white;
+  text-decoration: none;
+  font-size: 2.2vh;
+}
+
+.galerie:hover {
+  color:white;
+  text-decoration: none;
+  font-size: 2.2vh;
+}
