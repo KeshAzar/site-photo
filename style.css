@@ -168,8 +168,7 @@ footer a:hover {
 }
 
 .ct-img {
-  max-width: 2vh;
-  margin-right: 1vw;
+  max-width: 3vh;
   filter: invert(100%);
 }
 
