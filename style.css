@@ -1,6 +1,6 @@
 /* GENERAL */
 * {
-  font-family: 'Livvic', sans-serif;
+  font-family: "Livvic", sans-serif;
 }
 p {
   font-size: 1vw;
@@ -16,7 +16,7 @@ p {
 
 .bg-1 {
   background-color: #141414;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subtitle {
@@ -31,7 +31,7 @@ p {
 /* NAVBAR */
 
 .navbar-nav li a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .navbar-nav li a:hover {
@@ -40,13 +40,13 @@ p {
 
 .navbar h1 {
   letter-spacing: 2px;
-  font-family: 'Livvic', sans-serif;
+  font-family: "Livvic", sans-serif;
 }
 
 .nav-item {
   padding: 0 15px;
   letter-spacing: 3px;
-  font-family: 'Livvic', sans-serif;
+  font-family: "Livvic", sans-serif;
 }
 
 /* HERO */
@@ -57,7 +57,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 500px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* ABOUT */
@@ -68,22 +68,22 @@ p {
   padding-right: 5vw;
 }
 
-#texte-about > p{
+#texte-about > p {
   font-size: 2vh;
 }
 
 #photographer-portrait {
-  max-width : 450px;
+  max-width: 450px;
 }
 
 /* QUOTE */
 
 .bg-dark.custom-btn {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bg-dark.custom-btn:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* FOOTER */
@@ -93,7 +93,7 @@ footer .icon {
 }
 
 footer a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 footer a:hover {
@@ -102,13 +102,13 @@ footer a:hover {
 }
 
 .about {
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .fr {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -119,7 +119,7 @@ footer a:hover {
 }
 
 .fr-tarif {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -129,7 +129,7 @@ footer a:hover {
 }
 
 .bg-custom {
-  background-color: #FAEBE9;
+  background-color: #faebe9;
   display: flex;
   flex-direction: column;
 }
@@ -137,8 +137,8 @@ footer a:hover {
 .bar {
   border: 0;
   height: 0.3vh;
-  background: #FAEBE9;
-  margin:0;
+  background: #faebe9;
+  margin: 0;
 }
 
 .ct {
@@ -175,61 +175,61 @@ footer a:hover {
 
 div.table-title {
   display: block;
- margin: auto;
- max-width: 600px;
- padding:5px;
- width: 100%;
+  margin: auto;
+  max-width: 600px;
+  padding: 5px;
+  width: 100%;
 }
 
 /*** Table Styles **/
 
 .table-fill {
- box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 th {
- color:#D5DDE5;;
- background:#1b1e24;
- border-bottom:4px solid #9ea7af;
- border-right: 1px solid #343a45;
- font-size:1.6vh;
- font-weight: 100;
- padding-top:2vh;
- padding-bottom:2vh;
- padding-left: 3vw;
- padding-right: 3vw;
- text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
- vertical-align:middle;
+  color: #d5dde5;
+  background: #1b1e24;
+  border-bottom: 4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size: 1.6vh;
+  font-weight: 100;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
 }
 
 th:first-child {
- border-top-left-radius:3px;
+  border-top-left-radius: 3px;
 }
 
 th:last-child {
- border-top-right-radius:3px;
- border-right:none;
+  border-top-right-radius: 3px;
+  border-right: none;
 }
- 
+
 td {
- background:#EBEBEB;
- padding:1vw;
- text-align:center;
- vertical-align:middle;
- font-weight:300;
- font-size:1.4vh;
- text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
- border-right: 1px solid #C1C3D1;
- padding-bottom: 1vh;
- padding-top: 1vh;
+  background: #ebebeb;
+  padding: 1vw;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 1.4vh;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #c1c3d1;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
 }
 
 td:last-child {
- border-right: 0px;
+  border-right: 0px;
 }
 
 .space {
-  padding:0;
+  padding: 0;
   padding-top: 2vw;
 }
 
@@ -251,12 +251,13 @@ td:last-child {
   font-size: 2.2vh;
 }
 
-.cgv > p, .cgv > ul > li > p {
+.cgv > p,
+.cgv > ul > li > p {
   font-size: 1.8vh;
 }
 
 .cgv > ul > li > p {
-  margin:0;
+  margin: 0;
 }
 
 .row {
@@ -265,7 +266,7 @@ td:last-child {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
-  background-color: #FAEBE9;
+  background-color: #faebe9;
 }
 
 .column {
@@ -290,13 +291,12 @@ td:last-child {
 
 @media screen and (min-width: 1000px) {
   .about {
-    position:relative;
-    width:100%;
-    padding-right:15px;
-    padding-left:15px
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
-
 
 @media screen and (max-width: 800px) {
   .column {
