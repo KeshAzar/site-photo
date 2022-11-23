@@ -63,17 +63,16 @@ p {
 /* ABOUT */
 
 #texte-about {
-  min-width: 500px;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  width: 50%;
 }
 
 #texte-about > p {
-  font-size: 2vh;
+  font-size: 1.8vh;
+  padding-right: 4vw;
 }
 
 #photographer-portrait {
-  max-width: 450px;
+  padding-left: 4vw;
 }
 
 /* QUOTE */
@@ -105,6 +104,7 @@ footer a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .fr {
@@ -270,9 +270,12 @@ td:last-child {
 }
 
 .column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 34%;
   padding: 0 4px;
 }
 
@@ -287,14 +290,9 @@ td:last-child {
     flex-direction: column;
     align-items: center;
   }
-}
 
-@media screen and (min-width: 1000px) {
-  .about {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+  #texte-about {
+    width: 80%;
   }
 }
 
