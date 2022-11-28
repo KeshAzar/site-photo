@@ -28,10 +28,10 @@ p {
 }
 
 .bg-hero {
-  background-image: url("https://images.unsplash.com/photo-1513031300226-c8fb12de9ade?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-image: url("img/img9.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 25%;
   max-height: 600px;
   color: #ffffff;
 }
