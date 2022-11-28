@@ -247,13 +247,13 @@ td:last-child {
 
 .galerie {
   color:white;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 2.2vh;
 }
 
 .galerie:hover {
   color:white;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 2.2vh;
 }
 
